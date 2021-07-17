@@ -3,8 +3,8 @@ import tweepy
 import pandas as pd
 
 # API bağlantısı
-auth = tweepy.OAuthHandler("UiXHH6dRV2SENGe06NocIxh5i", "3Cr2XOKxKmZDF7V4F2bxJd5t9AIAM12kWxQTM5iEUxfh6H0Wgg")
-auth.set_access_token("792723088362315780-W8RGbgpScfT2AaBCmwq9uS7z768pdXe", "0059hxYShNi5hNkjboXJLG0JGbnjs26ksWuaExKWAfBmP")
+auth = tweepy.OAuthHandler("xxx", "xxx")
+auth.set_access_token("xxx", "xxx")
 
 api = tweepy.API(auth,wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
